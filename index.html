@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A student's field notes on video transport, parallel computing and machine learning.">
+<title>Network notebook · Student portfolio</title><link rel="stylesheet" href="style.css">
+</head>
+<body><header><a class="brand" href="#about">Network notebook</a><nav aria-label="Page sections"><a href="#projects">Projects</a><a href="#method">Method</a></nav></header>
+<main><section id="about"><p class="byline">Student portfolio / Computing</p><h1>How does a frame<br>reach the screen?</h1><p class="intro">I study what happens between sending a message and seeing a result. My projects follow video frames across sockets, words across workers and samples through a classifier.</p></section>
+<section id="projects"><h2>Selected projects</h2><article><div><h3>Motion over sockets</h3><p>I stream the same short animation through TCP and UDP, then check which frames arrive intact. One missing fragment can change what the viewer sees.</p></div><figure><img src="motion.gif" alt="An orange marker moving across a grid in a locally generated test clip" width="320" height="180"><figcaption>Original motion study · 36 frames</figcaption></figure></article>
+<article><div><h3>One word, many workers</h3><p>I follow a word from its first map output to its final count and compare how Hadoop and Spark move intermediate results.</p></div></article>
+<article><div><h3>Recognising a cultivar</h3><p>I use chemical measurements to predict the cultivar of a wine and check the errors separately for each class.</p></div></article></section>
+<section id="method"><h2>How I test</h2><p>Keep the input fixed. Record the output. Check a simple baseline before interpreting a performance difference.</p></section></main></body></html>
